@@ -2,7 +2,7 @@
   "name": "rose-discord",
   "version": "1.0.0",
   "description": "A useful bot for Discord communities.",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
     "nodemon": "^2.0.18"
   }
 }
