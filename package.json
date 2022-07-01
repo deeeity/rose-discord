@@ -1,0 +1,24 @@
+{
+  "name": "rose-discord",
+  "version": "1.0.0",
+  "description": "A useful bot for Discord communities.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rose-discord"
+  },
+  "keywords": [
+    "Discord",
+    "Discord",
+    "Bot",
+    "Bot"
+  ],
+  "author": "Deity",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.1"
+  }
+}
