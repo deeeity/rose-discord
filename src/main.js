@@ -1,13 +1,16 @@
 // Required
 const discord = require('discord.js')
 
-// Consts
+// Setup
+require('dotenv').config();
+
 const intents = [
     discord.Intents.FLAGS.GUILDS,
     discord.Intents.FLAGS.GUILD_MESSAGES,
     discord.Intents.FLAGS.GUILD_MEMBERS
 ]
 
-// Init
-require('dotenv').config();
-const client = discord.Client({ intents: intents })
+const client = new discord.Client({ intents: intents })
+
+// Startup
+client.login(process.env.BOT_TOKEN)
